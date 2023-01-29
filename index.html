@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <div id="inputFild">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="number" id="input-el" value="0">
+            <button id="button-el" onclick="converted()">CONVERT</button>
+            
+        </div>
+        <div id="container">
+            <div id="listedCard1" class="listedCard">
+                <p id="title1"> Length (meter/feet)</p>
+                <p id="meterFeet"></p>
+            </div>
+            <div id="listedCard2" class="listedCard">
+                <p id="title2"> Volume (liters/gallons)</p>
+                <p id="litreGalons"></p>
+            </div>
+            <div id="listedCard3" class="listedCard">
+                <p id="title3"> Mass (kilograms/pounds)</p>
+                <p id="kilogramPound"></p>
+            </div>
+        </div>
+    </body>
+</html>
